@@ -1,8 +1,3 @@
-/* ==========================================================================
-   PORTFOLIO — script.js
-   Fitur dipisah per fungsi supaya gampang dicari & diedit.
-   ========================================================================== */
-
 document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
   initActiveNavOnScroll();
@@ -55,7 +50,6 @@ function initActiveNavOnScroll(){
 
 /* --------------------------------------------------------------------------
    3) EFEK MENGETIK — subjudul di hero
-   Ganti array `roles` untuk mengubah teks yang berjalan.
    -------------------------------------------------------------------------- */
 function initTypewriter(){
   const el = document.getElementById('typewriter');
