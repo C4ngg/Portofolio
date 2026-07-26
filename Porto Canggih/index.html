@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canggih Wibowo — Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============================================
+     NAVBAR
+     ============================================ -->
+<header class="navbar" id="navbar">
+  <a href="#home" class="navbar-logo">Canggih Wibowo</a>
+
+  <button class="navbar-toggle" id="navbarToggle" aria-label="Buka menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="navbar-menu" id="navbarMenu">
+    <a href="#home" class="nav-link is-active" data-section="home">Beranda</a>
+    <a href="#about" class="nav-link" data-section="about">Tentang</a>
+    <a href="#education" class="nav-link" data-section="education">Pendidikan</a>
+    <a href="#skills" class="nav-link" data-section="skills">Kemampuan</a>
+    <a href="#contact" class="nav-link" data-section="contact">Kontak</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============================================
+       HERO
+       ============================================ -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <p class="hero-greeting">Halo, perkenalkan</p>
+      <h1 class="hero-name">Canggih Wibowo</h1>
+      <p class="hero-role" id="typewriter"></p>
+      <p class="hero-location">📍 Depok, Jawa Barat</p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+        <a href="#about" class="btn btn-outline">Tentang Saya</a>
+      </div>
+    </div>
+    <div class="hero-avatar">
+      <div class="avatar-circle">
+        <img src="assets/cover.jpeg" alt="CW" class="avatar-circle">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       ABOUT
+       ============================================ -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <p class="section-eyebrow">Tentang Saya</p>
+      <h2 class="section-title">Mengenal Lebih Dekat</h2>
+
+      <p class="about-text">
+        Saya fleksibel dalam bekerja, baik secara mandiri maupun dalam tim, karena saya percaya
+        bahwa kolaborasi dan kemandirian sama-sama penting untuk mencapai hasil yang maksimal.
+        Dengan semangat belajar yang tinggi, saya selalu terbuka untuk tantangan baru dan siap
+        memberikan kontribusi terbaik.
+      </p>
+
+      <div class="about-highlights">
+        <div class="highlight-card">
+          <span class="highlight-number">2</span>
+          <span class="highlight-label">Jenjang Pendidikan</span>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-number">5</span>
+          <span class="highlight-label">Software Dikuasai</span>
+        </div>
+        <div class="highlight-card">
+          <span class="highlight-number">2</span>
+          <span class="highlight-label">Bahasa</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       EDUCATION
+       ============================================ -->
+  <section class="section section-alt" id="education">
+    <div class="section-inner">
+      <p class="section-eyebrow">Pendidikan</p>
+      <h2 class="section-title">Riwayat Pendidikan</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2021 — 2024</span>
+            <h3 class="timeline-title">SMA Perjuangan Terpadu</h3>
+            <p class="timeline-desc">Jurusan Ilmu Pengetahuan Alam (IPA)</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot timeline-dot--active"></div>
+          <div class="timeline-card">
+            <div class="timeline-card-top">
+              <span class="timeline-year">2024 — Sekarang</span>
+              <span class="timeline-badge">Aktif</span>
+            </div>
+            <h3 class="timeline-title">Universitas Bina Sarana Informatika</h3>
+            <p class="timeline-desc">Jurusan Informatika</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SKILLS
+       ============================================ -->
+  <section class="section" id="skills">
+    <div class="section-inner">
+      <p class="section-eyebrow">Kemampuan</p>
+      <h2 class="section-title">Skill &amp; Software</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3 class="skill-card-title">Software</h3>
+          <ul class="skill-list">
+            <li>Visual Studio Code</li>
+            <li>Microsoft Word</li>
+            <li>Alight Motion</li>
+            <li>Cap Cut</li>
+            <li>Adobe After Effect</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="skill-card-title">Soft Skill</h3>
+          <ul class="skill-list">
+            <li>Kerja dalam tim</li>
+            <li>Manajemen waktu</li>
+            <li>Disiplin</li>
+            <li>Bertanggung jawab</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="skill-card-title">Komunikasi</h3>
+          <div class="lang-row">
+            <span class="lang-name">Bahasa Indonesia</span>
+            <div class="lang-bar"><div class="lang-fill" style="width:95%"></div></div>
+            <span class="lang-level">Lancar</span>
+          </div>
+          <div class="lang-row">
+            <span class="lang-name">Bahasa Inggris</span>
+            <div class="lang-bar"><div class="lang-fill" style="width:25%"></div></div>
+            <span class="lang-level">Pasif</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT
+       ============================================ -->
+  <section class="section section-alt" id="contact">
+    <div class="section-inner">
+      <p class="section-eyebrow">Kontak</p>
+      <h2 class="section-title">Mari Bekerja Sama</h2>
+      <p class="contact-subtitle">Silakan hubungi saya melalui salah satu kontak di bawah ini.</p>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <span class="contact-icon">📞</span>
+          <div class="contact-info">
+            <span class="contact-label">Telepon</span>
+            <span class="contact-value">+62 855-9123-4618</span>
+          </div>
+          <button class="copy-btn" data-copy="+6285591234618">Salin</button>
+        </div>
+
+        <div class="contact-card">
+          <span class="contact-icon">✉️</span>
+          <div class="contact-info">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">canggihwibowo669@gmail.com</span>
+          </div>
+          <button class="copy-btn" data-copy="canggihwibowo669@gmail.com">Salin</button>
+        </div>
+
+        <div class="contact-card">
+          <span class="contact-icon">📍</span>
+          <div class="contact-info">
+            <span class="contact-label">Lokasi</span>
+            <span class="contact-value">Depok, Jawa Barat</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-actions">
+        <a href="mailto:canggihwibowo669@gmail.com" class="btn btn-primary">Kirim Email</a>
+        <a href="https://wa.me/6285591234618" target="_blank" rel="noopener" class="btn btn-outline">Chat WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Canggih Wibowo. Semua hak dilindungi.</p>
+</footer>
+
+<div class="toast" id="toast">Disalin ke clipboard</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
