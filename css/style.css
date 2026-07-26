@@ -41,9 +41,7 @@ a{ color: inherit; }
   html{ scroll-behavior: auto; }
 }
 
-/* ==========================================================================
-   NAVBAR
-   ========================================================================== */
+/* NAVBAR */
 .navbar{
   position: sticky;
   top: 0;
@@ -104,9 +102,7 @@ a:focus-visible, button:focus-visible{
   outline-offset: 3px;
 }
 
-/* ==========================================================================
-   HERO
-   ========================================================================== */
+/* HERO */
 .hero{
   max-width: 1100px;
   margin: 0 auto;
@@ -177,13 +173,9 @@ a:focus-visible, button:focus-visible{
   color: #fff;
   box-shadow: var(--shadow);
 }
-/* Jika pakai foto asli: ganti .avatar-circle dari <div> jadi <img class="avatar-circle" ...>
-   lalu tambahkan baris berikut supaya foto ter-crop rapi */
 img.avatar-circle{ object-fit: cover; }
 
-/* ==========================================================================
-   BUTTONS
-   ========================================================================== */
+/* BUTTONS */
 .btn{
   display: inline-block;
   padding: 13px 26px;
@@ -206,9 +198,7 @@ img.avatar-circle{ object-fit: cover; }
 }
 .btn-outline:hover{ border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
 
-/* ==========================================================================
-   SECTIONS (umum)
-   ========================================================================== */
+/* SECTIONS (umum) */
 .section{ padding: 80px clamp(20px, 6vw, 64px); }
 .section-alt{ background: var(--bg-alt); }
 
@@ -243,9 +233,7 @@ img.avatar-circle{ object-fit: cover; }
   transform: translateY(0);
 }
 
-/* ==========================================================================
-   ABOUT
-   ========================================================================== */
+/* ABOUT */
 .about-text{
   font-size: 16px;
   color: var(--text-dim);
@@ -281,9 +269,7 @@ img.avatar-circle{ object-fit: cover; }
   color: var(--text-dim);
 }
 
-/* ==========================================================================
-   EDUCATION / TIMELINE
-   ========================================================================== */
+/* EDUCATION / TIMELINE */
 .timeline{
   position: relative;
   padding-left: 26px;
@@ -359,9 +345,7 @@ img.avatar-circle{ object-fit: cover; }
   margin: 0;
 }
 
-/* ==========================================================================
-   SKILLS
-   ========================================================================== */
+/* SKILLS */
 .skills-grid{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -445,9 +429,7 @@ img.avatar-circle{ object-fit: cover; }
   text-align: right;
 }
 
-/* ==========================================================================
-   CONTACT
-   ========================================================================== */
+/* CONTACT */
 .contact-subtitle{
   color: var(--text-dim);
   margin: -18px 0 34px;
@@ -492,9 +474,7 @@ img.avatar-circle{ object-fit: cover; }
 
 .contact-actions{ display: flex; gap: 14px; flex-wrap: wrap; }
 
-/* ==========================================================================
-   FOOTER
-   ========================================================================== */
+/* FOOTER */
 .footer{
   text-align: center;
   padding: 26px 20px;
@@ -503,9 +483,7 @@ img.avatar-circle{ object-fit: cover; }
   border-top: 1px solid var(--line);
 }
 
-/* ==========================================================================
-   TOAST
-   ========================================================================== */
+/* TOAST */
 .toast{
   position: fixed;
   bottom: 30px;
@@ -526,9 +504,7 @@ img.avatar-circle{ object-fit: cover; }
   transform: translateX(-50%) translateY(0);
 }
 
-/* ==========================================================================
-   RESPONSIVE
-   ========================================================================== */
+/* RESPONSIVE */
 @media (max-width: 860px){
   .skills-grid, .contact-grid{ grid-template-columns: 1fr; }
 }

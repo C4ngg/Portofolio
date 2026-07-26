@@ -7,9 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initFooterYear();
 });
 
-/* --------------------------------------------------------------------------
-   1) MENU MOBILE — buka/tutup navbar di layar sempit
-   -------------------------------------------------------------------------- */
+/* 1) MENU MOBILE — buka/tutup navbar di layar sempit */
 function initMobileMenu(){
   const toggle = document.getElementById('navbarToggle');
   const menu = document.getElementById('navbarMenu');
@@ -26,9 +24,7 @@ function initMobileMenu(){
   });
 }
 
-/* --------------------------------------------------------------------------
-   2) NAV AKTIF SESUAI SCROLL — highlight menu sesuai section yang terlihat
-   -------------------------------------------------------------------------- */
+/* 2) NAV AKTIF SESUAI SCROLL — highlight menu sesuai section yang terlihat */
 function initActiveNavOnScroll(){
   const sections = document.querySelectorAll('main section[id]');
   const navLinks = document.querySelectorAll('.nav-link');
@@ -48,9 +44,7 @@ function initActiveNavOnScroll(){
   sections.forEach(section => observer.observe(section));
 }
 
-/* --------------------------------------------------------------------------
-   3) EFEK MENGETIK — subjudul di hero
-   -------------------------------------------------------------------------- */
+/* 3) EFEK MENGETIK — subjudul di hero */
 function initTypewriter(){
   const el = document.getElementById('typewriter');
   if (!el) return;
@@ -97,9 +91,7 @@ function initTypewriter(){
   tick();
 }
 
-/* --------------------------------------------------------------------------
-   4) SCROLL REVEAL — elemen muncul dengan fade saat masuk layar
-   -------------------------------------------------------------------------- */
+/* 4) SCROLL REVEAL — elemen muncul dengan fade saat masuk layar */
 function initScrollReveal(){
   const targets = document.querySelectorAll(
     '.highlight-card, .timeline-item, .skill-card, .contact-card'
@@ -131,9 +123,7 @@ function initScrollReveal(){
   langFills.forEach(el => langObserver.observe(el));
 }
 
-/* --------------------------------------------------------------------------
-   5) SALIN KE CLIPBOARD — tombol "Salin" di kartu kontak
-   -------------------------------------------------------------------------- */
+/*  5) SALIN KE CLIPBOARD — tombol "Salin" di kartu kontak */
 function initCopyButtons(){
   const buttons = document.querySelectorAll('.copy-btn');
   const toast = document.getElementById('toast');
@@ -166,9 +156,8 @@ function initCopyButtons(){
   }
 }
 
-/* --------------------------------------------------------------------------
-   6) TAHUN DI FOOTER — otomatis, tidak perlu diedit manual tiap tahun
-   -------------------------------------------------------------------------- */
+
+/* 6) TAHUN DI FOOTER — otomatis, tidak perlu diedit manual tiap tahun */
 function initFooterYear(){
   const el = document.getElementById('year');
   if (el) el.textContent = new Date().getFullYear();
