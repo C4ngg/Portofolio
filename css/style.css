@@ -193,7 +193,7 @@ img.avatar-circle{ object-fit: cover; }
 
 .btn-outline{
   background: transparent;
-  border: 1.5px solid var(--line);
+  border: 1.5px solid var(--accent);
   color: var(--text);
 }
 .btn-outline:hover{ border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
